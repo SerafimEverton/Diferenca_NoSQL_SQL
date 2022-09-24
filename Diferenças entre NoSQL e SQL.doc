@@ -1,0 +1,56 @@
+Banco de dados relacional versus banco de dados NoSQL
+Para entender os bancos de dados NoSQL, é importante saber qual é a diferença entre RDBMS e tipos não relacionais de bancos de dados.
+
+Os dados em um RDBMS são armazenados em objetos de banco de dados que são chamados de tabelas. Uma tabela é uma coleção de entradas de dados relacionadas e consiste em colunas e linhas. Esses bancos de dados requerem a definição do esquema com antecedência, ou seja, todas as colunas e seus tipos de dados associados devem ser conhecidos de antemão para que os aplicativos possam gravar dados no banco de dados. Eles também armazenam informações vinculando várias tabelas por meio do uso de chaves, criando assim um relacionamento entre várias tabelas. No caso mais simples, uma chave é usada para recuperar uma linha específica para que ela possa ser examinada ou modificada.
+
+Por outro lado, em bancos de dados NoSQL, os dados podem ser armazenados sem definir o esquema com antecedência—o que significa que você tem a capacidade de se mover e iterar rapidamente, definindo o modelo de dados à medida que avança. Isso pode ser adequado para requisitos específicos de negócios, seja baseado em gráficos, orientado a colunas, orientado a documentos ou como um armazenamento de valor-chave.
+
+Até muito recentemente, os bancos de dados relacionais eram os modelos mais usados. Eles ainda são extremamente onipresentes em muitas empresas; no entanto, a variedade, velocidade e volume de dados que estão sendo acessados hoje às vezes requerem um banco de dados muito diferente para complementar o banco de dados relacional. Isso desencadeou a adoção em algumas áreas dos bancos de dados NoSQL—também chamados de "bancos de dados não relacionais". Devido à sua capacidade de escalar horizontalmente e rapidamente, os bancos de dados não relacionais podem lidar com alto tráfego, o que também os torna altamente adaptáveis.
+
+Quando escolher um banco de dados NoSQL?
+Com empresas e organizações precisando inovar rapidamente, ser capaz de se manter ágil e continuar operando em qualquer escala faz parte do jogo. Os bancos de dados NoSQL oferecem esquemas flexíveis e também suportam uma variedade de modelos de dados que são ideais para a construção de aplicativos que requerem grandes volumes de dados e baixa latência ou tempos de resposta—por exemplo, jogos online e aplicativos da web de ecommerce.
+
+Quando não escolher um banco de dados NoSQL?
+Os bancos de dados NoSQL normalmente dependem de dados desnormalizados, suportando os tipos de aplicativos que usam menos tabelas (ou contêineres) e cujos relacionamentos de dados não são modelados usando referências, mas sim como registros (ou documentos) incorporados. Muitos aplicativos de negócios de back-office clássicos em finanças, contabilidade e planejamento de recursos corporativos contam com dados altamente normalizados para evitar anomalias de dados, bem como a duplicação de dados. Esses são os tipos comuns de aplicações que não são adequadas para um Banco de Dados NoSQL.
+
+Outra distinção dos bancos de dados NoSQL é a complexidade da consulta. Os bancos de dados NoSQL funcionam incrivelmente bem com consultas em uma única tabela. No entanto, conforme a complexidade das consultas aumenta, os bancos de dados relacionais são uma escolha melhor. O banco de dados NoSQL normalmente não oferece junções complexas, subconsultas e aninhamento de consultas em uma cláusula WHERE.
+
+Às vezes, porém, não é necessário escolher entre bancos de dados relacionais e não relacionais. Em muitas ocasiões, as empresas optaram por bancos de dados que oferecem um modelo convergente, no qual podem empregar uma combinação de modelos de dados relacionais e não relacionais. Essa abordagem híbrida oferece maior flexibilidade no tratamento de diferentes tipos de dados, ao mesmo tempo que garante a consistência de leitura e gravação sem degradar o desempenho.
+
+O que o NoSQL oferece que outros bancos de dados não oferecem?
+Um dos principais diferenciais entre os bancos de dados NoSQL e outros tipos de bancos de dados é que os bancos de dados NoSQL geralmente usam armazenamento não estruturado. Desenvolvidos nas últimas duas décadas, os bancos de dados NoSQL foram projetados para consultas rápidas e simples, vastos dados e mudanças frequentes de aplicativos. Além disso, esses bancos de dados também tornam a programação muito mais simples para os desenvolvedores.
+
+Outro diferenciador importante é que os bancos de dados NoSQL dependem de um processo chamado "fragmentação" para escalar horizontalmente, o que significa que mais máquinas podem ser adicionadas para lidar com dados em vários servidores. A escala vertical encontrada em outros bancos de dados SQL requer a adição de mais potência e memória à máquina existente, o que pode ser insustentável à medida que mais e mais armazenamento é necessário.
+
+A natureza do escalonamento horizontal com bancos de dados NoSQL significa que eles podem lidar com quantidades extremamente grandes de dados—mesmo enquanto os dados estão crescendo—de maneira mais eficiente. Pode ser útil pensar na escala vertical como adicionar um novo andar à sua casa, enquanto a escala horizontal é como construir outra casa ao lado da original.
+
+Benefícios de um banco de dados NoSQL
+A velocidade e escala sem precedentes da interação digital e do consumo de dados observada nas últimas duas décadas exigiram que as empresas adotassem uma abordagem mais moderna e fluida de como armazenam dados e como os acessam. Com usuários em todo o mundo exigindo um fluxo ininterrupto de conteúdo e funções, não é de se admirar que os bancos de dados tenham que adaptar-se rapidamente. Com isso em mente, aqui estão alguns dos principais motivos pelos quais os desenvolvedores estão escolhendo NoSQL/bancos de dados não relacionais:
+
+Flexibilidade
+Com os bancos de dados SQL, os dados são armazenados em uma estrutura predefinida muito mais rígida. Mas com o NoSQL, os dados podem ser armazenados de uma forma mais livre, sem aqueles esquemas rígidos. Este design permite inovação e rápido desenvolvimento de aplicativos. Os desenvolvedores podem se concentrar na criação de sistemas para melhor atender seus clientes, sem preocupar-se com os esquemas. Os bancos de dados NoSQL podem lidar facilmente com qualquer formato de dados, como dados estruturados, semiestruturados e não estruturados em um único armazenamento de dados.
+Escalabilidade
+Em vez de escalar adicionando mais servidores, os bancos de dados NoSQL podem escalar usando hardware comum. Isso tem a capacidade de suportar o aumento do tráfego para atender à demanda com tempo de inatividade zero. Ao expandir, os bancos de dados NoSQL podem se tornar maiores e mais poderosos, e é por isso que eles se tornaram a opção preferida para conjuntos de dados em evolução.
+Alto desempenho
+A arquitetura de expansão de um banco de dados NoSQL pode ser particularmente valiosa quando o volume de dados ou o tráfego aumenta. Conforme mostrado no gráfico abaixo, essa arquitetura garante tempos de resposta rápidos e previsíveis em milissegundos de um dígito. Os bancos de dados NoSQL também podem ingerir dados e entregá-los de forma rápida e confiável, e é por isso que os bancos de dados NoSQL são usados em aplicações que coletam terabytes de dados todos os dias, ao mesmo tempo que exigem uma experiência de usuário altamente interativa. No gráfico abaixo, mostramos uma taxa de entrada de 300 leituras por segundo (linha azul) com uma latência de 95 no intervalo de 3-4 ms e uma taxa de entrada de 150 gravações por segundo (linha verde) com uma latência de 95 no intervalo de 4-5ms.
+banco de dados nosql
+
+Disponibilidade
+Os bancos de dados NoSQL replicam dados automaticamente em vários servidores, data centers ou recursos de nuvem. Por sua vez, isso minimiza a latência para os usuários, não importa onde eles estejam localizados. Esse recurso também reduz a carga de gerenciamento do banco de dados, o que libera tempo para concentrar-se em outras prioridades.
+Altamente Funcional
+Os bancos de dados NoSQL são projetados para armazenamentos de dados distribuídos que têm necessidades de armazenamento de dados extremamente grandes. Isso é o que torna o NoSQL a escolha ideal para big data, aplicativos da web em tempo real, cliente 360, compras online, jogos online, Internet of things, redes sociais e aplicativos de publicidade online.
+Tipos de bancos de dados NoSQL
+Existem quatro tipos principais de bancos de dados NoSQL:
+
+Valor principal
+Este é o tipo mais flexível de banco de dados NoSQL porque o aplicativo tem controle total sobre o que é armazenado no campo de valor sem quaisquer restrições.
+Documento
+Também conhecidos como armazenamento de documentos ou bancos de dados orientados a documentos, esses bancos de dados são usados para armazenar, recuperar e gerenciar dados semiestruturados. Não há necessidade de especificar quais campos um documento conterá.
+Gráfico
+Este banco de dados organiza os dados como nós e relacionamentos, que mostram as conexões entre os nós. Isso oferece suporte a uma representação de dados mais rica e completa. Bancos de dados gráficos são aplicados em redes sociais, sistemas de reserva e detecção de fraudes.
+Coluna larga
+Esses bancos de dados armazenam e gerenciam dados na forma de tabelas, linhas e colunas. Eles são amplamente implantados em aplicativos que requerem um formato de coluna para capturar dados sem esquema.
+Experimente o Oracle NoSQL Database
+O Oracle NoSQL Database Cloud Service torna mais fácil para os desenvolvedores construir aplicativos usando modelos de banco de dados de documentos, colunas e de valores-chave que fornecem tempos de resposta previsíveis de dígito único em milissegundos com replicação de dados para alta disponibilidade. O serviço oferece transações ACID, escalonamento sem servidor, segurança abrangente e baixo preço de pagamento por uso.
+
+O Oracle NoSQL Database Cloud Service agora faz parte do Oracle Cloud Free Tier, que inclui um teste promocional gratuito por tempo limitado que permite explorar uma ampla gama de serviços em nuvem, bem como um conjunto de serviços de Uso Livre que nunca expiram.
